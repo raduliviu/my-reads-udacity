@@ -1,7 +1,7 @@
-import React, { Component } from 'react'
+import React from 'react'
 // import * as BooksAPI from './BooksAPI'
 import './App.css'
-import { BrowserRouter, Route, Link } from 'react-router-dom'
+import { BrowserRouter, Route } from 'react-router-dom'
 
 import Home from './components/Home'
 import Search from './components/Search'
