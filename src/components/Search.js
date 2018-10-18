@@ -1,9 +1,13 @@
 import React from "react";
 import { Link } from 'react-router-dom'
 
-const Search = () => {
-  return (
-    <div className="search-books">
+class Search extends React.Component {
+  state = {
+  }
+
+  render() {
+    return (
+      <div className="search-books">
             <div className="search-books-bar">
               <Link className="close-search" to='/'>Close</Link>
               <div className="search-books-input-wrapper">
@@ -23,7 +27,8 @@ const Search = () => {
               <ol className="books-grid"></ol>
             </div>
           </div>
-  );
-};
+    )
+  }
+}
 
 export default Search;
