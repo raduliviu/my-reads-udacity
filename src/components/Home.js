@@ -23,6 +23,7 @@ class Home extends React.Component {
                         <Book 
                           book={book}
                           changeShelf={this.props.changeShelf}
+                          currentShelf='currentlyReading'
                         />
                       </li>
                     ))
@@ -42,6 +43,7 @@ class Home extends React.Component {
                           <Book 
                             book={book}
                             changeShelf={this.props.changeShelf}
+                            currentShelf='wantToRead'
                           />
                         </li>
                       ))
@@ -61,6 +63,7 @@ class Home extends React.Component {
                         <Book 
                           book={book}
                           changeShelf={this.props.changeShelf}
+                          currentShelf='read'
                         />
                       </li>
                     ))
