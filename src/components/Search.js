@@ -29,7 +29,6 @@ class Search extends React.Component {
         this.setState({ searchedBooks: [] });
     }
 }
-  
 
   render() {
     return (
@@ -45,7 +44,7 @@ class Search extends React.Component {
             />
           </div>
         </div>
-        
+
         <div className="search-books-results">
           <ol className="books-grid">
             {
@@ -54,8 +53,7 @@ class Search extends React.Component {
 
                 this.props.books.map(book => (
                   book.id === searchedBook.id ?
-                  shelf = book.shelf :
-                  ''
+                  shelf = book.shelf : ''
                 ))
 
                 return (
