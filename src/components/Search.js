@@ -43,9 +43,9 @@ class Search extends React.Component {
               value={this.state.query}
               onChange={(event) => this.updateQuery(event.target.value)}
             />
-
           </div>
         </div>
+        
         <div className="search-books-results">
           <ol className="books-grid">
             {
